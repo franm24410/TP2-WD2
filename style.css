@@ -80,10 +80,6 @@ section {
   box-shadow: 0 12px 24px rgba(18, 8, 120, 0.22);
 }
 
-section p{
-  margin-bottom: 4%;
-}
-
 h1{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -403,6 +399,29 @@ aside {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+}
+
+.formularioTerminos{
+  width: 30%;
+  padding: 2%;
+  margin: 2%;
+  margin-left: 35%;
+  border: 1px, solid, #4da7d15e;
+  box-shadow: 0 12px 24px #4da7d15e;
+  background-color: #dff6ff;
+  border-radius: 28px;
+}
+.formularioTerminos p{
+  margin-bottom: 2%;
+}
+.formularioTerminos p:last-child{
+  font-size: 10%;
+  color: #183b5221;
+  margin-bottom: 0%;
+}
+
+.formularioTerminos a{
+  margin-bottom: 2%;
 }
 
 footer {
