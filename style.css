@@ -80,6 +80,14 @@ section {
   box-shadow: 0 12px 24px rgba(18, 8, 120, 0.22);
 }
 
+section p{
+  margin-bottom: 4%;
+}
+
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 a {
   display: inline-block;
   width: fit-content;
@@ -172,7 +180,6 @@ input:active {
 .intro div h1 {
   margin: 0;
   margin-bottom: 2%;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 5rem;
   font-weight: bold;
   color: white;
@@ -266,7 +273,7 @@ aside {
 }
 
 .catalogo div img {
-  width: 40%;
+  width: 44%;
   border: 3px solid rgba(255, 255, 255, 0.35);
   border-radius: 22px;
 }
@@ -308,7 +315,6 @@ aside {
 }
 
 .contacto h1 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 300%;
 }
 
@@ -324,7 +330,6 @@ aside {
 .suscripcion h1 {
   width: fit-content;
   text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 300%;
 }
 
@@ -418,7 +423,7 @@ footer div a {
   display: inline-block;
   width: fit-content;
   margin: 1% 2%;
-  padding: 3% 4%;
+  padding: 4% 6%;
   border-radius: 999px;
   text-align: center;
   text-decoration: none;
@@ -441,4 +446,8 @@ footer div a:hover {
 footer h2 {
   font-size: 300%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botonEnviar{
+  margin-left: 43%;
 }
