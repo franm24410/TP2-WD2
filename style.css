@@ -25,6 +25,7 @@ header {
   align-items: center;
   padding: 0.5% 1%;
   background-color: white;
+  box-shadow: 0 12px 24px rgba(18, 8, 120, 0.22);
 }
 
 /* Header: logo */
@@ -85,7 +86,8 @@ h1{
 }
 
 a {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   width: fit-content;
   padding: 2% 2%;
   border-radius: 999px;
@@ -168,7 +170,7 @@ input:active {
   padding: 6%;
   border: 2px solid rgba(255, 255, 255, 0.2);
   border-radius: 28px;
-  background-color: rgb(35, 25, 179);
+  background-color: #6cbadf;
   box-shadow: 0 12px 24px rgba(18, 8, 120, 0.22);
 }
 
@@ -211,8 +213,8 @@ input:active {
   justify-content: center;
   align-items: center;
   margin-bottom: 2%;
-  background-color: rgb(35, 25, 179);
-  box-shadow: 0 12px 24px rgb(35, 25, 179);
+  background-color: #6cbadf;
+  box-shadow: 0 12px 24px rgba(18, 8, 120, 0.22);
 }
 
 /* Main (index): título del banner */
@@ -331,8 +333,16 @@ aside {
 
 .suscripcion div {
   display: flex;
-  flex-direction: row;
   width: fit-content;
+  justify-content: center;
+  width: 100%;
+}
+
+.suscripcion div div {
+  display: flex;
+  width: 30%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   margin: 1%;
   margin-top: 3%;
   padding: 3%;
@@ -342,9 +352,14 @@ aside {
   border: 2px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 12px 24px rgba(18, 8, 120, 0.22);
 }
+.suscripcion div div h2{
+  text-align: center;
+  width: 100%;
+}
 
-.suscripcion div div {
-  display: inline;
+.suscripcion input{
+  margin: 1%;
+  width: 100%;
 }
 
 .detalles {
